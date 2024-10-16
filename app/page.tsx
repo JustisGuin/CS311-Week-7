@@ -5,7 +5,7 @@ export default function HomePage() {
     <div>
       <h1>Welcome to our CAFE, where we serve the worst food</h1>
       <p>
-        <Link href="/appetizers">Appetizers</Link>
+        <Link href="/appetizers" className='link'>Appetizers</Link>
       </p>
       <p>
         <Link href="/entrees">Entrees</Link>
