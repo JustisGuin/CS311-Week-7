@@ -1,16 +1,15 @@
 import Link from 'next/link';
-import FoodItem from '../food';
-import PageTitle from '../pageTitle';
+
+
 
 export default function Appetizers(){
   return (
     <div>
-      <PageTitle text="Appetizers" />
+      <h1>Appetizers</h1>
       <ul>
-        <FoodItem name="Bruschetta"></FoodItem>
-        <FoodItem name="Stuffed Mushrooms"></FoodItem>
-        <FoodItem name="Caprese Salad"></FoodItem>
-        <FoodItem name="Spinch Arichoke dip"></FoodItem>
+        <li>Beans with moldy toast</li>
+        <li>Just beans.</li>
+        <li>Day old turkey</li>
       </ul>
       <Link href="/">Back to Home</Link>
     </div>
