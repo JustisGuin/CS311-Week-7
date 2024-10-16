@@ -4,6 +4,7 @@ import Link from 'next/link';
 
 export default function Appetizers(){
   return (
+    <body className='appetizersBody'>
     <div>
       <h1>Appetizers</h1>
       <ul>
@@ -13,6 +14,7 @@ export default function Appetizers(){
       </ul>
       <Link href="/">Back to Home</Link>
     </div>
+    </body>
   );
 };
 

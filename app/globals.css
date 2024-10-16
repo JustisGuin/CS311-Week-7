@@ -9,18 +9,27 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #711ea4;
     --foreground: #ededed;
   }
 }
 
 body {
-  color: var(--foreground);
+  color: var(#171717);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+   font-family: 'Papyrus', fantasy;    /*Actually the worst font I could find */
+  font-size:x-large; 
 }
 
-@layer utilities {
+.appetizersBody{
+  background-color: bisque;
+  font-size: xx-small;
+
+}
+
+
+
+@layer utilities { 
   .text-balance {
     text-wrap: balance;
   }
